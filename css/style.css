@@ -1,0 +1,20 @@
+body, html, .container-fluid, .sidebar, .body {
+    height: 100%;
+    min-height: 100%;
+    margin:0;
+}
+.body {
+    box-sizing: border-box;
+    padding-top:40px;
+    background:red;
+    z-index:1;
+}
+.navbar {
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    background:green;
+    z-index:2;
+}
